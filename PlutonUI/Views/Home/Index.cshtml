@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">CRUD Proveedor</h1>
+    <p>Proyecto MVC: Interfaz de Usuario tabla Proveedor.</p>
+
+    <div>
+    <a href="/proveedor/nuevo">
+        <button id="GuardarBtn" type="button">Insertar Nuevo Proveedor</button>
+    </a>
+    </div>
+    <br />
+
+    <div>
+        <button type="button" onclick="redirigir()">Editar Proveedor</button>
+        <input type="text" id="ProveedorId" placeholder="Ingrese ID del Proveedor" autocomplete="off" />
+    </div>
+    <br />
+
+    <div>
+        <a href="/proveedor/eliminar">
+            <button id="GuardarBtn" type="button">Eliminar Proveedor</button>
+        </a>
+    </div>
+    <br />
+    <section>
+        <a href="/proveedor/obtener">
+            <button id="GuardarBtn" type="button">Obtener Datos de Proveedor</button>
+        </a>
+    </section>
+
+
+</div>
+
+<script>
+    function redirigir() {
+        var idProveedor = document.getElementById('ProveedorId').value;
+        if (idProveedor) {
+            window.location.href = '/proveedor/editar/' + idProveedor;
+        } else {
+            alert('Por favor, ingrese un ID válido.');
+        }
+    }
+</script>

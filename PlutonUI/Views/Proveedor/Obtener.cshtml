@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Proveedor - Obtener";
+}
+@section Styles {
+	<link href="~/views/proveedor/buscar.css" rel="stylesheet" />
+}
+<form id="GetForm">
+
+    <label for="IdProveedorTxt">Proveedor </label>
+    <input id="IdProveedorTxt" type="text" autocomplete="off" />
+    <button id="GetBtn" type="button">Obtener</button>
+    <br/>
+    <div id="ProductoResult"></div>
+    <br />
+    <br />
+    <a href="/">
+        <button id="RegresarBtn" type="button">Regresar</button>
+    </a>
+
+</form>
+@section Scripts{
+	<script src="~/views/proveedor/buscar.js"></script>
+}

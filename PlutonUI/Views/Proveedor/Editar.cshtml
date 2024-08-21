@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Proveedor - Editar";
+}
+@section Styles{
+	<link href="~/views/proveedor/editar.css" rel="stylesheet"/>
+}
+<h1>Editar Proveedor con ID: @ViewBag.IdProveedor</h1>
+<input type="hidden" id="ProveedorIdHidden" value="@ViewBag.IdProveedor" />
+
+
+<form id="EditarFrm">
+    <button id="GuardarBtn" type="button" >Guardar</button>
+    <br />
+    <label for="NombreTxt">Nombre:</label>
+    <input id="NombreTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="RucTxt">Ruc:</label>
+    <input id="RucTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="ContactoTxt">ContactoI:d</label>
+    <input id="ContactoTxt" type="number" autocomplete="off" />
+    <br />
+    <label for="DireccionTxt">Direccion:</label>
+    <input id="DireccionTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="CiudadTxt">Ciudad:</label>
+    <input id="CiudadTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="RegionTxt">Region:</label>
+    <input id="RegionTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="CodPostalTxt">Codigo Postal:</label>
+    <input id="CodPostalTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="PaisTxt">Pais:</label>
+    <input id="PaisTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="TelefonoTxt">Telefono:</label>
+    <input id="TelefonoTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="FaxTxt">Fax:</label>
+    <input id="FaxTxt" type="text" autocomplete="off" />
+    <br />
+    <label for="PaginaPrincipalTxt">Pagina Principal:</label>
+    <input id="PaginaPrincipalTxt" type="text" autocomplete="off" />
+    <br />
+    <br />
+    <a href="/">
+        <button id="RegresarBtn" type="button">Regresar</button>
+    </a>
+</form>
+@section Scripts{
+	<script src="~/views/proveedor/editar.js"></script>
+}

@@ -1,0 +1,6 @@
+@Pluton_HostAddress = http://localhost:5110
+
+GET {{Pluton_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

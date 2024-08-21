@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlutonApi", "Pluton\PlutonApi.csproj", "{54E1F673-6D0C-4DE1-B7CC-D032284C1E50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlutonBE", "PlutonBE\PlutonBE.csproj", "{9A5938B1-AB96-44F8-8115-516F1DD2A527}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlutonBL", "PlutonBL\PlutonBL.csproj", "{ED3C531C-C961-41E0-ACD9-74448FD6952F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlutonDA", "PlutonDA\PlutonDA.csproj", "{EFE59179-A633-4DF3-99DC-8754BE596C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libreria", "Libreria\Libreria.csproj", "{4154D4B3-438F-44E2-899B-ECBC772E96AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlutonUI", "PlutonUI\PlutonUI.csproj", "{DACA9FB6-8204-4B59-A755-76CA66B2614E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54E1F673-6D0C-4DE1-B7CC-D032284C1E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E1F673-6D0C-4DE1-B7CC-D032284C1E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E1F673-6D0C-4DE1-B7CC-D032284C1E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E1F673-6D0C-4DE1-B7CC-D032284C1E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5938B1-AB96-44F8-8115-516F1DD2A527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5938B1-AB96-44F8-8115-516F1DD2A527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5938B1-AB96-44F8-8115-516F1DD2A527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5938B1-AB96-44F8-8115-516F1DD2A527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3C531C-C961-41E0-ACD9-74448FD6952F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3C531C-C961-41E0-ACD9-74448FD6952F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3C531C-C961-41E0-ACD9-74448FD6952F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3C531C-C961-41E0-ACD9-74448FD6952F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE59179-A633-4DF3-99DC-8754BE596C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE59179-A633-4DF3-99DC-8754BE596C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE59179-A633-4DF3-99DC-8754BE596C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE59179-A633-4DF3-99DC-8754BE596C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4154D4B3-438F-44E2-899B-ECBC772E96AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4154D4B3-438F-44E2-899B-ECBC772E96AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4154D4B3-438F-44E2-899B-ECBC772E96AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4154D4B3-438F-44E2-899B-ECBC772E96AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACA9FB6-8204-4B59-A755-76CA66B2614E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACA9FB6-8204-4B59-A755-76CA66B2614E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACA9FB6-8204-4B59-A755-76CA66B2614E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACA9FB6-8204-4B59-A755-76CA66B2614E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A90A3940-AF7C-49AB-840D-5440B706DF84}
+	EndGlobalSection
+EndGlobal
